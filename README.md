@@ -62,14 +62,14 @@ copy and paste the codes in each file into the Query tool or PSQL shell
 
 Install this project with:
 
-```git clone {project url}```
+```git clone git@github.com:hamidazim321/vet-clinic-db.git```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Hamid <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Hamid**
 
 - GitHub: [@hamidazim321](https://github.com/hamidazim321)
 - Twitter: [@hamidazim321](https://twitter.com/hamidazim321)
