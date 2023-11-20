@@ -38,7 +38,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[contains pre-defined schema and data]**
+- **contains pre-defined schema and data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +80,7 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Will add more data]**
+- [ ] **Will add more data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
