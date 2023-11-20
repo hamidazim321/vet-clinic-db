@@ -19,9 +19,9 @@
 - [📝 License](#license)
 
 
-# 📖 [Vet Clinic Database] <a name="about-project"></a>
+# 📖 Vet Clinic Database <a name="about-project"></a>
 
-**[Vet Clinic Database]** is a project in the Microverse Full-Stack program. It is contains SQL commands to create and populate a database for a vet clinic
+**Vet Clinic Database** is a project in the Microverse Full-Stack program. It is contains SQL commands to create and populate a database for a vet clinic
 
 ## 🛠 Built With <a name="built-with"></a>
 
