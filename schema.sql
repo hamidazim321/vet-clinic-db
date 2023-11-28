@@ -41,3 +41,40 @@ ADD CONSTRAINT fk_owners
 	REFERENCES owners (id)
 	ON DELETE CASCADE;
 
+
+CREATE TABLE vets (
+	id INT GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(255),
+	age INT,
+	date_of_graduation DATE,
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE specializations (
+	species_id INT,
+	vet_id INT,
+	CONSTRAINT fk_species
+		FOREIGN KEY (species_id)
+		REFERENCES species (id)
+		ON DELETE CASCADE,
+	CONSTRAINT fk_vets
+		FOREIGN KEY (vet_id)
+		REFERENCES vets (id)
+		ON DELETE CASCADE,
+	PRIMARY KEY (species_id, vet_id)
+);
+
+CREATE TABLE visits (
+	animal_id INT,
+	vet_id INT,
+	visit_date DATE
+	CONSTRAINT fk_animal
+		FOREIGN KEY (animal_id)
+		REFERENCES animals (id)
+		ON DELETE CASCADE,
+	CONSTRAINT fk_vets
+		FOREIGN KEY (vet_id)
+		REFERENCES vets (id)
+		ON DELETE CASCADE,
+	PRIMARY KEY (animal_id, vet_id, visit_date)
+);
